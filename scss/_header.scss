@@ -1,0 +1,56 @@
+#header{
+  background-color: rgb(48, 47, 45);
+  .uk-navbar-center{
+    .uk-navbar-nav{
+      >li{
+        &.uk-active{
+          >a{
+            color: #ffffff;
+            &:before{
+              right: 15px;
+            }
+          }
+        }
+        >a{
+          font-family: $font-NunitoSans-ExtraBold;
+          font-size: 13px;
+          color: rgba(255, 255, 255, 0.7);
+          position: relative;
+          &.uk-open{
+            color: #ffffff;
+            &:before{
+              right: 15px;
+            }
+          }
+          &:hover{
+            color: #ffffff;
+            &:before{
+              right: 15px;
+            }
+          }
+          &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 15px;
+            right: calc(102% - 15px);
+            bottom: 0;
+            height: 3px;
+            background-color: #E8505B;
+            transition: .3s ease-in-out;
+            transition-property: right;
+          }
+        }
+      }
+    }
+  }
+}
+//======================================
+.language_h{
+  color: #ffffff !important;
+  text-transform: inherit;
+  padding: 0 15px;
+  font-family: $font-NunitoSans-Regular;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}

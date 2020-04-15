@@ -1,5 +1,19 @@
 <?php $data["title"] = "TRANG THIẾT KẾ WEB"; ?>
 <?php require "header.php"; ?>
+<div class="section_1 uk-section uk-flex uk-flex-bottom uk-background-center-center uk-background-norepeat" data-src="images/bg-thietkeweb.png" uk-img>
+    <div class="uk-width-1-1">
+        <div class="uk-container">
+            <div class="uk-margin">
+                <div class="img_icon uk-flex-inline uk-padding-small uk-border-circle">
+                    <img src="images/thietkeweb_icon.png" alt="">
+                </div>
+            </div>
+            <div class="uk-margin-small"><h1 class="uk-display-inline-block uk-text-uppercase bg_txt_1 uk-margin-remove">THIẾT KẾ</h1></div>
+            <div class="uk-margin-small"><h1 class="uk-display-inline-block uk-text-uppercase bg_txt_1 uk-margin-remove">WEBSITE</h1></div>
+            <div class="uk-margin-small"><h4 class="uk-display-inline-block uk-text-uppercase bg_txt_2 uk-margin-remove">cHỌN MIRAITECH - CHỌN THÀNH CÔNG!</h4></div>
+        </div>
+    </div>
+</div>
 <div class="support_1 uk-section-xsmall uk-background-center-center uk-flex uk-flex-middle uk-background-norepeat uk-background-default" data-src="images/bg_support_girl.png" uk-img>
     <div class="uk-width-1-1">
         <div class="uk-container">

@@ -38,7 +38,7 @@
                 <div>
                     <h4 class="title_f uk-text-uppercase uk-margin">VỀ CHÚNG TÔI</h4>
                     <ul class="uk-list list_f">
-                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="about.php">Giới thiệu</a></li>
                         <li><a href="">Tuyển dụng</a></li>
                         <li><a href="">Báo giá</a></li>
                     </ul>
@@ -63,7 +63,7 @@
                     <ul class="uk-list list_f">
                         <li><a href="thietkeweb.php">Thiết kế website</a></li>
                         <li><a href="thietkelogo.php">Nhận diện thương hiệu</a></li>
-                        <li><a href="">Digital Marketing</a></li>
+                        <li><a href="digital.php">Digital Marketing</a></li>
                     </ul>
                 </div>
             </div>
