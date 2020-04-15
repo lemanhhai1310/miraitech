@@ -1,0 +1,34 @@
+@mixin uk-grid($i){
+  margin-left: -#{$i}px;
+  >*{
+    padding-left: #{$i}px;
+  }
+  .uk-grid-margin{
+    margin-top: #{$i}px;
+  }
+}
+@for $i from 0 through 45 {
+  .uk-grid-#{$i}-xl{
+    @media (min-width: 1600px) {
+      @include uk-grid($i);
+    }
+  }
+  .uk-grid-#{$i}-l{
+    @media (min-width: 1200px) {
+      @include uk-grid($i);
+    }
+  }
+  .uk-grid-#{$i}-m{
+    @media (min-width: 960px) {
+      @include uk-grid($i);
+    }
+  }
+  .uk-grid-#{$i}-s{
+    @media (min-width: 640px) {
+      @include uk-grid($i);
+    }
+  }
+  .uk-grid-#{$i}{
+    @include uk-grid($i);
+  }
+}

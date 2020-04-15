@@ -1,0 +1,76 @@
+.social_f{
+  .uk-icon-button{
+    background-color: transparent !important;
+    border: 1px solid #f8f8f8;
+  }
+}
+//======================================
+#footer{
+  color: rgba(255, 255, 255, 0.7);
+}
+//======================================
+.block1_f{
+  &:not(:first-child){
+    border-top: 1px solid rgba(196, 196, 196, 0.1);
+  }
+}
+//======================================
+.title_f{
+  color: #ffffff;
+  font-size: 17px;
+  font-family: $font-OpenSans-Regular;
+  span{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .txt_img{
+    margin-left: 5px !important;
+  }
+}
+//======================================
+.address_f{
+  span{
+    color: #ffffff;
+    font-family: $font-OpenSans-Bold;
+  }
+}
+//======================================
+.form_f{
+  @media (min-width: 960px) {
+    width: 550px;
+  }
+  .uk-input{
+    font-size: 13px;
+    color: rgba(55, 55, 55, 0.5);
+    height: 50px !important;
+    &::placeholder{
+      color: rgba(55, 55, 55, 0.5);
+    }
+  }
+  .uk-button{
+    padding: 0 13px;
+    right: 5px;
+    //line-height: 40px;
+  }
+}
+//======================================
+.copyright_f{
+  color: rgba(255, 255, 255, 0.4);
+}
+//======================================
+.list_f{
+  >li{
+    color: rgba(255, 255, 255, 0.7);
+    &:not(:first-child){
+      margin-top: 15px;
+    }
+    span{
+      color: #ffffff;
+      font-family: $font-NunitoSans-ExtraBold;
+      font-size: 14px;
+    }
+    >a{
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}

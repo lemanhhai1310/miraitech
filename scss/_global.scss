@@ -1,0 +1,40 @@
+body{
+  font-size: 13px;
+  background: #2B2B29;
+  font-family: $font-OpenSans-Regular;
+}
+//======================================
+.support_1{
+  min-height: calc(409px - 40px);
+  @media (max-width: 960px) {
+    background-size: cover !important;
+  }
+  .desc{
+    color: #333333;
+    span{
+      color: #000;
+      font-family: $font-OpenSans-Bold;
+      font-size: 14px;
+    }
+  }
+  .title{
+    font-family: $font-NunitoSans-ExtraBold;
+    color: #000;
+    @media (min-width: 960px) {
+      font-size: 2rem;
+    }
+  }
+  .phone_call{
+    &:not(:hover){
+      background-color: #E8505B;
+      border-color: #E8505B;
+    }
+    font-family: $font-NunitoSans-Bold;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .dky{
+    font-size: 13px;
+    font-family: $font-NunitoSans-ExtraBold;
+  }
+}
