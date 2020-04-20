@@ -1,5 +1,5 @@
 <?php require "header_head.php"; ?>
-<div id="header">
+<div id="header" uk-sticky>
     <div class="uk-container">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">
@@ -21,7 +21,7 @@
                     <li><a href="#">Báo giá</a></li>
                     <li><a href="#">Kiến Thức</a></li>
                     <li><a href="#">Tuyển dụng</a></li>
-                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="contact.php">Liên hệ</a></li>
                 </ul>
             </div>
             <div class="uk-navbar-right">

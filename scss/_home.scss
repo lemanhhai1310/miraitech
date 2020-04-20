@@ -1,0 +1,50 @@
+.hosonangluc{
+  border-top: 3px solid #FBB606;
+  padding-top: 70px;
+  @media (min-width: 960px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .icon_hoso{
+    top: -20px;
+    width: 40px;
+  }
+}
+//======================================
+.list_1{
+  >li{
+    color: rgba(41, 41, 41, 0.9);
+    font-size: 13.5px;
+    font-family: $font-NunitoSans-Regular;
+    &:nth-child(n+2){
+      margin-top: 5px;
+    }
+    &:before{
+      top: -1px;
+      background-image: url("../images/Star.png");
+    }
+  }
+}
+//======================================
+.title_digital{
+  font-family: $font-NunitoSans-Bold;
+  color: rgba(41, 41, 41, 0.9);
+  font-size: 17px;
+  @media (min-width: 960px) {
+    font-size: 19px;
+  }
+}
+//======================================
+.desc_digital{
+  font-family: $font-NunitoSans-Bold;
+  color: rgba(41, 41, 41, 0.9);
+  font-size: 14px;
+}
+//======================================
+.hoso_content{
+  font-family: $font-NunitoSans-SemiBold;
+  font-size: 13.5px;
+  span{
+    color: #FFFFFF;
+  }
+}

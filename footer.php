@@ -74,12 +74,12 @@
             <h4 class="title_f uk-text-uppercase uk-margin-small">Đăng ký báo giá</h4>
             <div class="uk-flex-center uk-flex-middle" uk-grid>
                 <div class="uk-width-expand@s">
-                    <div class="form_f uk-position-relative">
-                        <input class="uk-input uk-form-large" type="text" placeholder="Nhập email hoặc số phone">
+                    <form class="form_f uk-position-relative" action="trangcamon.php">
+                        <input class="uk-input uk-form-large" type="email" placeholder="Nhập email hoặc số phone">
                         <button type="submit" class="uk-button uk-button-secondary uk-position-center-right"><span uk-icon="icon: chevron-right; ratio: 1"></span></button>
-                    </div>
+                    </form>
                 </div>
-                <div class="uk-width-auto"><img src="images/bct.png" alt=""></div>
+                <div class="uk-width-auto"><a href="" target="_blank"><img src="images/bct.png" alt=""></a></div>
             </div>
         </div>
     </div>

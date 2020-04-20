@@ -1,0 +1,21 @@
+.box3{
+  border: 10px solid #2F2F2F;
+  transition: all .3s;
+  &:hover{
+    transform: scale(1.05);
+    border-color: #FFFFFF;
+  }
+}
+//======================================
+.box4{
+  background: linear-gradient(358.8deg, rgba(0, 0, 0, 0.72) 2.98%, rgba(0, 0, 0, 0) 93.85%);
+  .name{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: $font-NunitoSans-Black;
+  }
+  .author{
+    font-family: $font-NunitoSans-Regular;
+  }
+}
+//======================================

@@ -1,6 +1,6 @@
 body{
   font-size: 13px;
-  background: rgb(48, 47, 45);
+  background: #343432;
   font-family: $font-OpenSans-Regular;
 }
 //======================================
@@ -14,6 +14,7 @@ body{
   min-height: 351px;
   @media (min-width: 960px) {
     padding: 30px 0;
+    background-size: cover !important;
   }
 }
 //======================================
@@ -24,6 +25,193 @@ body{
   line-height: 100%;
   @media (min-height: 960px) {
     font-size: 1.15rem;
+  }
+}
+//======================================
+.fz1{
+  @media (min-width: 960px) {
+    font-size: 1.9rem;
+  }
+}
+//======================================
+.fz2{
+  @media (min-width: 960px) {
+    font-size: 1.45rem;
+  }
+}
+//======================================
+.title_g_3{
+  color: rgba(255, 255, 255, 0.8);
+  font-family: $font-NunitoSans-Regular;
+  line-height: 1.36;
+  @extend .fz2;
+  span{
+    color: #FFFFFF;
+  }
+}
+//======================================
+.qas_1{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-family: $font-NunitoSans-Regular;
+  font-size: 14px;
+  padding: 20px 30px;
+  @media (min-width: 960px) {
+    font-size: 15px;
+  }
+  &:before{
+    background-image: url("../images/Arrow-Drop-Down.png") !important;
+    .uk-open &{
+      transform: rotate(-180deg);
+    }
+  }
+  .uk-open &{
+    border-color: #EDC774 !important;
+    background: #2B2B29;
+  }
+}
+//======================================
+.qas_2{
+  padding: 20px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 0;
+  margin-top: -1px;
+  font-family: $font-NunitoSans-Bold;
+  .uk-open &{
+    border-color: #EDC774 !important;
+    background: #2B2B29;
+  }
+}
+//======================================
+.title_g_2{
+  font-family: $font-NunitoSans-SemiBold;
+  line-height: 1.3;
+  &.c1{
+    @extend .fz2;
+  }
+  @extend .fz1;
+}
+//======================================
+$width-line: 280px;
+.line1{
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FFFFFF;
+  .line-left{
+    max-width: inherit;
+    width: $width-line;
+    height: 2px;
+    background: linear-gradient(90.19deg, #FFFFFF 0%, rgba(95, 95, 95, 0) 87.24%);
+    transform: rotate(180deg);
+  }
+  .line-right{
+    max-width: inherit;
+    width: $width-line;
+    height: 2px;
+    background: linear-gradient(90.19deg, #FFFFFF 0%, rgba(95, 95, 95, 0) 87.24%);
+  }
+}
+//======================================
+.input1{
+  left: 7px;
+  opacity: 0;
+  .box1 &{
+    opacity: 0 !important;
+  }
+  @media (min-width: 960px) {
+
+  }
+  &:checked{
+    opacity: 1;
+    background-color: #EDC774 !important;
+    background-image: url("../images/check1.png") !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  &:checked + .item_chinhanh{
+    border-color: #EDC774;
+  }
+}
+//======================================
+.title_g_1{
+  color: #ffffff;
+  font-family: $font-NunitoSans-Bold;
+  @media (min-width: 960px) {
+    font-size: 1.8rem;
+  }
+}
+//======================================
+.item_chinhanh{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(45, 45, 45, 0.9);
+  min-height: 87px;
+  padding: 15px 25px;
+  .box1 &{
+    border-color: #EDC774;
+  }
+  hr{
+    border-top: 0.5px solid rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .title{
+    margin: 0 !important;
+    font-size: 16px;
+    font-family: $font-NunitoSans-Bold;
+  }
+  .uk-list{
+    margin: 0 !important;
+    li{
+      margin: 0 !important;
+      position: relative;
+      padding-left: 20px;
+      img{
+        position: absolute;
+        top: 4px;
+        left: 0;
+      }
+    }
+  }
+}
+//======================================
+.btn1{
+  line-height: 48px;
+  font-family: $font-NunitoSans-ExtraBold;
+  .digital_about &{
+    background-color: transparent !important;
+    border-color: #FFFFFF !important;
+    &:hover{
+      background-color: #FFFFFF !important;
+    }
+  }
+  &.dky{
+    min-width: 405px;
+    &:hover{
+      border-color: #000000;
+      color: #000;
+    }
+  }
+  &:not(:hover){
+    background-color: #369afb;
+    border-color: #369afb;
+  }
+  &:hover{
+    background-color: transparent !important;
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+}
+//======================================
+.form1{
+  .uk-input{
+    height: 50px;
+  }
+  .uk-textarea,
+  .uk-input{
+    font-family: $font-NunitoSans-SemiBold;
+    &:not(:focus){
+      background-color: rgba(0, 0, 0, 0.5);
+      border-color: rgba(0, 0, 0, 0.5);
+    }
   }
 }
 //======================================
