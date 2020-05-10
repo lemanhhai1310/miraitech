@@ -75,10 +75,60 @@
         </div>
     </div>
 </div>
-<div class="uk-section">
+<div class="uk-section bg1">
     <div class="uk-container uk-container-xsmall">
+        <div class="uk-margin uk-light">
+            <h2 class="title_g_2 c1 uk-text-center uk-text-uppercase">XIN CHÀO ĐÃ ĐẾN VỚI</h2>
+        </div>
         <div class="uk-text-center">
             <img src="images/Frame_miraitech.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="bg1">
+    <div class="uk-container uk-container-expand-left">
+        <div class="uk-grid-small uk-grid-0-m uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <div class="box_img">
+                    <img src="images/tamnhin.png" alt="">
+                </div>
+            </div>
+            <div class="uk-width-1-3@l w1-m">
+                <div class="uk-padding uk-light box5">
+                    <h2 class="uk-text-uppercase title">tầm nhìn</h2>
+                    <div class="desc">Với hơn 10 năm kinh nghiệm cùng với thế mạnh là đội ngũ nhân viên trẻ và nhiệt huyết, chuyên môn cao. Chúng tôi luôn cố gắng hoàn thiện trong tư duy và đổi mới trong sáng tạo, không ngừng phát triển sản phẩm dịch vụ để được sự tín nhiệm của khách hàng dễ và khó tính nhất.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-container uk-container-expand-right">
+        <div class="uk-grid-small uk-grid-0-m uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <div class="box_img">
+                    <img src="images/sumenh.png" alt="">
+                </div>
+            </div>
+            <div class="uk-width-1-3@l w1-m uk-flex-first@l">
+                <div class="uk-padding uk-light box5">
+                    <h2 class="uk-text-uppercase title">Sứ mệnh</h2>
+                    <div class="desc">Chúng tôi mang lại những giải pháp phù hợp với doanh nghiệp, theo xu hướng thay đổi mỗi ngày của thương mại điện tử. Sứ mệnh của MIRAITECH là không ngừng mang đến cho những khách hàng những sản phẩm chất lượng. Để đưa các doanh nghiệp Việt Nam vươn xa hơn trên Thế Giới.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-container uk-container-expand-left">
+        <div class="uk-grid-small uk-grid-0-m uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <div class="box_img">
+                    <img src="images/giatricotloi.png" alt="">
+                </div>
+            </div>
+            <div class="uk-width-1-3@l w1-m">
+                <div class="uk-padding uk-light box5">
+                    <h2 class="uk-text-uppercase title">Giá trị cốt lõi</h2>
+                    <div class="desc">Với phương châm uy tín & bảo mật tạo nên thương hiệu của MIRAITECH. Đó cũng là hướng đi cho toàn bộ hoạt động của công ty, tôn trọng các ý kiến cá nhân, đề cao tinh thần làm việc nhóm giữa các thành viên, tạo nên môi trường làm việc thực sự chuyên nghiệp.</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

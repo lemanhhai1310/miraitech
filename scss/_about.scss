@@ -19,3 +19,32 @@
   }
 }
 //======================================
+.box_img{
+  img{
+
+  }
+  .uk-container-expand-right &{
+    text-align: left;
+  }
+  .uk-container-expand-left &{
+    text-align: right;
+  }
+}
+//======================================
+.box5{
+  padding: 30px 80px !important;
+  .uk-container-expand-right &{
+    padding-left: 0 !important;
+  }
+  .uk-container-expand-left &{
+    padding-right: 0 !important;
+  }
+  .title{
+    @extend .fz1;
+    font-family: $font-NunitoSans-Bold;
+  }
+  .desc{
+    font-family: $font-NunitoSans-Regular;
+    font-size: 14px;
+  }
+}
